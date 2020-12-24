@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\Reg_Log_Form\bin\Debug\Reg_Log_Form.exe.config
+C:\Users\User\source\repos\Reg_Log_Form\bin\Debug\Reg_Log_Form.exe
+C:\Users\User\source\repos\Reg_Log_Form\bin\Debug\Reg_Log_Form.pdb
+C:\Users\User\source\repos\Reg_Log_Form\obj\Debug\Reg_Log_Form.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Reg_Log_Form\obj\Debug\Reg_Log_Form.Form1.resources
+C:\Users\User\source\repos\Reg_Log_Form\obj\Debug\Reg_Log_Form.Properties.Resources.resources
+C:\Users\User\source\repos\Reg_Log_Form\obj\Debug\Reg_Log_Form.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Reg_Log_Form\obj\Debug\Reg_Log_Form.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Reg_Log_Form\obj\Debug\Reg_Log_Form.exe
+C:\Users\User\source\repos\Reg_Log_Form\obj\Debug\Reg_Log_Form.pdb
+C:\Users\User\source\repos\Reg_Log_Form\obj\Debug\Reg_Log_Form.DashBoard.resources
+C:\Users\User\source\repos\Reg_Log_Form\obj\Debug\Reg_Log_Form.AdminPanel.resources
+C:\Users\User\source\repos\Reg_Log_Form\obj\Debug\Reg_Log_Form.UsersListForm.resources
+C:\Users\User\source\repos\Reg_Log_Form\obj\Debug\Reg_Log_Form.Forms.LogsListForm.resources
+C:\Users\User\source\repos\Reg_Log_Form\obj\Debug\Reg_Log_Form.Forms.ConfirmationForm.resources

@@ -1,0 +1,796 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="linklbl_login.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="linklbl_login.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt</value>
+  </data>
+  <data name="linklbl_login.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="linklbl_login.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="linklbl_login.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 497</value>
+  </data>
+  <data name="linklbl_login.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="linklbl_login.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="linklbl_login.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 35</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="linklbl_login.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="linklbl_login.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="linklbl_login.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;linklbl_login.Name" xml:space="preserve">
+    <value>linklbl_login</value>
+  </data>
+  <data name="&gt;&gt;linklbl_login.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linklbl_login.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;linklbl_login.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="linklbl_Reg.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="linklbl_Reg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="linklbl_Reg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt</value>
+  </data>
+  <data name="linklbl_Reg.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="linklbl_Reg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="linklbl_Reg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 497</value>
+  </data>
+  <data name="linklbl_Reg.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="linklbl_Reg.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="linklbl_Reg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 35</value>
+  </data>
+  <data name="linklbl_Reg.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="linklbl_Reg.Text" xml:space="preserve">
+    <value>Register </value>
+  </data>
+  <data name="linklbl_Reg.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;linklbl_Reg.Name" xml:space="preserve">
+    <value>linklbl_Reg</value>
+  </data>
+  <data name="&gt;&gt;linklbl_Reg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linklbl_Reg.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;linklbl_Reg.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_login.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="btn_login.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_login.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 315</value>
+  </data>
+  <data name="btn_login.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 39</value>
+  </data>
+  <data name="btn_login.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btn_login.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;btn_login.Name" xml:space="preserve">
+    <value>btn_login</value>
+  </data>
+  <data name="&gt;&gt;btn_login.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_login.Parent" xml:space="preserve">
+    <value>grbx_login</value>
+  </data>
+  <data name="&gt;&gt;btn_login.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="loginlbl_Passw.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="loginlbl_Passw.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt</value>
+  </data>
+  <data name="loginlbl_Passw.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="loginlbl_Passw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 226</value>
+  </data>
+  <data name="loginlbl_Passw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 29</value>
+  </data>
+  <data name="loginlbl_Passw.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="loginlbl_Passw.Text" xml:space="preserve">
+    <value>Password :  
+</value>
+  </data>
+  <data name="&gt;&gt;loginlbl_Passw.Name" xml:space="preserve">
+    <value>loginlbl_Passw</value>
+  </data>
+  <data name="&gt;&gt;loginlbl_Passw.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginlbl_Passw.Parent" xml:space="preserve">
+    <value>grbx_login</value>
+  </data>
+  <data name="&gt;&gt;loginlbl_Passw.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txbx_loginEmail.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 14.25pt</value>
+  </data>
+  <data name="txbx_loginEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 183</value>
+  </data>
+  <data name="txbx_loginEmail.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txbx_loginEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 28</value>
+  </data>
+  <data name="txbx_loginEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="txbx_loginEmail.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txbx_loginEmail.Name" xml:space="preserve">
+    <value>txbx_loginEmail</value>
+  </data>
+  <data name="&gt;&gt;txbx_loginEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbx_loginEmail.Parent" xml:space="preserve">
+    <value>grbx_login</value>
+  </data>
+  <data name="&gt;&gt;txbx_loginEmail.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="loginlbl_Email.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="loginlbl_Email.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt</value>
+  </data>
+  <data name="loginlbl_Email.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="loginlbl_Email.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 151</value>
+  </data>
+  <data name="loginlbl_Email.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 29</value>
+  </data>
+  <data name="loginlbl_Email.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="loginlbl_Email.Text" xml:space="preserve">
+    <value>Email :  
+</value>
+  </data>
+  <data name="&gt;&gt;loginlbl_Email.Name" xml:space="preserve">
+    <value>loginlbl_Email</value>
+  </data>
+  <data name="&gt;&gt;loginlbl_Email.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginlbl_Email.Parent" xml:space="preserve">
+    <value>grbx_login</value>
+  </data>
+  <data name="&gt;&gt;loginlbl_Email.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txbx_loginPassw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 257</value>
+  </data>
+  <data name="txbx_loginPassw.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txbx_loginPassw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="txbx_loginPassw.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="txbx_loginPassw.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txbx_loginPassw.Name" xml:space="preserve">
+    <value>txbx_loginPassw</value>
+  </data>
+  <data name="&gt;&gt;txbx_loginPassw.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbx_loginPassw.Parent" xml:space="preserve">
+    <value>grbx_login</value>
+  </data>
+  <data name="&gt;&gt;txbx_loginPassw.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grbx_login.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Showcard Gothic, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="grbx_login.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="grbx_login.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 474</value>
+  </data>
+  <data name="grbx_login.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="grbx_login.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="grbx_login.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;grbx_login.Name" xml:space="preserve">
+    <value>grbx_login</value>
+  </data>
+  <data name="&gt;&gt;grbx_login.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grbx_login.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grbx_login.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_register.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Trebuchet MS, 12pt, style=Bold, Italic</value>
+  </data>
+  <data name="btn_register.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_register.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 427</value>
+  </data>
+  <data name="btn_register.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 39</value>
+  </data>
+  <data name="btn_register.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btn_register.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="&gt;&gt;btn_register.Name" xml:space="preserve">
+    <value>btn_register</value>
+  </data>
+  <data name="&gt;&gt;btn_register.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_register.Parent" xml:space="preserve">
+    <value>grbx_register</value>
+  </data>
+  <data name="&gt;&gt;btn_register.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_password.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_password.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt</value>
+  </data>
+  <data name="lbl_password.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_password.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 348</value>
+  </data>
+  <data name="lbl_password.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 29</value>
+  </data>
+  <data name="lbl_password.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lbl_password.Text" xml:space="preserve">
+    <value>Password :  
+</value>
+  </data>
+  <data name="&gt;&gt;lbl_password.Name" xml:space="preserve">
+    <value>lbl_password</value>
+  </data>
+  <data name="&gt;&gt;lbl_password.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_password.Parent" xml:space="preserve">
+    <value>grbx_register</value>
+  </data>
+  <data name="&gt;&gt;lbl_password.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txbx_email.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 14.25pt</value>
+  </data>
+  <data name="txbx_email.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 303</value>
+  </data>
+  <data name="txbx_email.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txbx_email.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 28</value>
+  </data>
+  <data name="txbx_email.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="txbx_email.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txbx_email.Name" xml:space="preserve">
+    <value>txbx_email</value>
+  </data>
+  <data name="&gt;&gt;txbx_email.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbx_email.Parent" xml:space="preserve">
+    <value>grbx_register</value>
+  </data>
+  <data name="&gt;&gt;txbx_email.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_email.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_email.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt</value>
+  </data>
+  <data name="lbl_email.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_email.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 273</value>
+  </data>
+  <data name="lbl_email.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 29</value>
+  </data>
+  <data name="lbl_email.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lbl_email.Text" xml:space="preserve">
+    <value>Email :  
+</value>
+  </data>
+  <data name="&gt;&gt;lbl_email.Name" xml:space="preserve">
+    <value>lbl_email</value>
+  </data>
+  <data name="&gt;&gt;lbl_email.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_email.Parent" xml:space="preserve">
+    <value>grbx_register</value>
+  </data>
+  <data name="&gt;&gt;lbl_email.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txbx_age.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 14.25pt</value>
+  </data>
+  <data name="txbx_age.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 226</value>
+  </data>
+  <data name="txbx_age.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txbx_age.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 28</value>
+  </data>
+  <data name="txbx_age.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="txbx_age.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txbx_age.Name" xml:space="preserve">
+    <value>txbx_age</value>
+  </data>
+  <data name="&gt;&gt;txbx_age.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbx_age.Parent" xml:space="preserve">
+    <value>grbx_register</value>
+  </data>
+  <data name="&gt;&gt;txbx_age.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_age.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_age.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt</value>
+  </data>
+  <data name="lbl_age.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_age.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 196</value>
+  </data>
+  <data name="lbl_age.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 29</value>
+  </data>
+  <data name="lbl_age.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lbl_age.Text" xml:space="preserve">
+    <value>Age :  
+</value>
+  </data>
+  <data name="&gt;&gt;lbl_age.Name" xml:space="preserve">
+    <value>lbl_age</value>
+  </data>
+  <data name="&gt;&gt;lbl_age.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_age.Parent" xml:space="preserve">
+    <value>grbx_register</value>
+  </data>
+  <data name="&gt;&gt;lbl_age.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txbx_surname.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 14.25pt</value>
+  </data>
+  <data name="txbx_surname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 149</value>
+  </data>
+  <data name="txbx_surname.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txbx_surname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 28</value>
+  </data>
+  <data name="txbx_surname.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txbx_surname.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txbx_surname.Name" xml:space="preserve">
+    <value>txbx_surname</value>
+  </data>
+  <data name="&gt;&gt;txbx_surname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbx_surname.Parent" xml:space="preserve">
+    <value>grbx_register</value>
+  </data>
+  <data name="&gt;&gt;txbx_surname.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbl_surname.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_surname.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt</value>
+  </data>
+  <data name="lbl_surname.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_surname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 119</value>
+  </data>
+  <data name="lbl_surname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 29</value>
+  </data>
+  <data name="lbl_surname.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lbl_surname.Text" xml:space="preserve">
+    <value>Surname :  
+</value>
+  </data>
+  <data name="&gt;&gt;lbl_surname.Name" xml:space="preserve">
+    <value>lbl_surname</value>
+  </data>
+  <data name="&gt;&gt;lbl_surname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_surname.Parent" xml:space="preserve">
+    <value>grbx_register</value>
+  </data>
+  <data name="&gt;&gt;lbl_surname.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txbx_name.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 14.249999pt</value>
+  </data>
+  <data name="txbx_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 70</value>
+  </data>
+  <data name="txbx_name.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="txbx_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 28</value>
+  </data>
+  <data name="txbx_name.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txbx_name.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txbx_name.Name" xml:space="preserve">
+    <value>txbx_name</value>
+  </data>
+  <data name="&gt;&gt;txbx_name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbx_name.Parent" xml:space="preserve">
+    <value>grbx_register</value>
+  </data>
+  <data name="&gt;&gt;txbx_name.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_name.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_name.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 18pt</value>
+  </data>
+  <data name="lbl_name.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>168, 40</value>
+  </data>
+  <data name="lbl_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 29</value>
+  </data>
+  <data name="lbl_name.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lbl_name.Text" xml:space="preserve">
+    <value>Name :  
+</value>
+  </data>
+  <data name="&gt;&gt;lbl_name.Name" xml:space="preserve">
+    <value>lbl_name</value>
+  </data>
+  <data name="&gt;&gt;lbl_name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_name.Parent" xml:space="preserve">
+    <value>grbx_register</value>
+  </data>
+  <data name="&gt;&gt;lbl_name.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txbx_password.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 378</value>
+  </data>
+  <data name="txbx_password.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txbx_password.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="txbx_password.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 31</value>
+  </data>
+  <data name="txbx_password.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="txbx_password.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txbx_password.Name" xml:space="preserve">
+    <value>txbx_password</value>
+  </data>
+  <data name="&gt;&gt;txbx_password.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbx_password.Parent" xml:space="preserve">
+    <value>grbx_register</value>
+  </data>
+  <data name="&gt;&gt;txbx_password.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="grbx_register.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Showcard Gothic, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="grbx_register.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="grbx_register.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 474</value>
+  </data>
+  <data name="grbx_register.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="grbx_register.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="&gt;&gt;grbx_register.Name" xml:space="preserve">
+    <value>grbx_register</value>
+  </data>
+  <data name="&gt;&gt;grbx_register.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grbx_register.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grbx_register.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>437, 544</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Reg Log</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

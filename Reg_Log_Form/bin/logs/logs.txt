@@ -1,0 +1,18 @@
+[
+	[user]:[zeynal@gmail.az]
+	[action]:[LogIn]
+	[time]:[24.11.2020 1:57:53]
+]
+
+[<log>
+	<user>zeynal@gmail.az</user>
+	<action>LogIn</action>
+	<time>24.11.2020 2:20:14</time>
+</log
+>
+[<log>
+	<user>zeynal@gmail.az</user>
+	<action>LogOut</action>
+	<time>24.11.2020 2:20:16</time>
+</log
+>
